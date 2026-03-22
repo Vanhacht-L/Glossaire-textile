@@ -467,9 +467,9 @@ input:focus-visible {
 }
 
 .icon-1 { background-color: #ffe2e2; }
-.icon-2 { background-color: #fef3c6; }
-.icon-3 { background-color: #5248b9; }
-.icon-4 { background-color: #d0fae5; }
+.icon-2 { background-color: #FEF3C6; }
+.icon-3 { background-color: #E0E7FF; }
+.icon-4 { background-color: #D0FAE5; }
 
 
 
@@ -669,10 +669,11 @@ input:focus-visible {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 392px);
   gap: 32px;
   max-width: var(--container-width);
   margin: 0 auto;
+  justify-content: center;
 }
 
 .footer-column h3 {
@@ -703,13 +704,12 @@ input:focus-visible {
   transition: color 0.3s ease;
 }
 
-.footer-nav-list a:hover,
-.footer-nav-list a:focus {
-  color: var(--secondary);
+.footer-nav-list a:hover {
+  color: #e1b2b6;
 }
 
 .footer-bottom {
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 .footer-bottom p {
