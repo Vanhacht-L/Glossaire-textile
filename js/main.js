@@ -265,10 +265,9 @@ function initSearch() {
         ? "1 terme trouvé"
         : `${results.length} termes trouvés`;
 
-    results.forEach((item) => {
-      resultsContainer.innerHTML = results.map(createResultCard).join("");
-    });
-  }
+    resultsContainer.innerHTML = results.map(createResultCard).join("");
+  } 
+  
 
   function filterResults() {
     const query = searchInput.value.trim();
@@ -339,9 +338,8 @@ function initSearch() {
 /* =========================
    INITIALISATION
 ========================= */
-document.addEventListener("DOMContentLoaded", () => {
-  loadHeader();
-  loadFooter();
+document.addEventListener("DOMContentLoaded", async () => {
+  await Promise.all([loadHeader(), loadFooter()]);
   loadFichePage();
   initSearch();
 });
