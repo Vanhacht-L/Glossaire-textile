@@ -140,7 +140,7 @@ function createResultCard(item) {
     <a href="fiche.html?id=${encodeURIComponent(item.id)}" class="result-card-link">
       <article class="result-card">
         <div class="result-card-image">
-          <img src="${item.image}" alt="${item.title}">
+          <img src="${item.image}" alt="${item.title}" loading="lazy" decoding="async">
         </div>
         <div class="result-card-content">
           <span class="result-badge" style="background-color: ${item.badgeColor};">
