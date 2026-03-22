@@ -55,7 +55,7 @@ const textilesData = [
     badgeColor: "#E0E7FF",
     description:
       "Réalisée à partir du shibori zome, une technique de teinture nouée importée d'Inde. Elle évoluera au Japon afin de rendre des motifs plus précis et plus fins. À partir de chevillettes pointues, on tire des parties du tissu en forme de petits cônes qui sont ensuite enroulées de fils enduits de cire ou de colle. Cette technique, utilisée sur un kimono, pouvait ainsi contenir 300 000 points noués, donnant un résultat similaire au pelage d’un jeune daim, d'où le terme kanoko.",
-    image: "images/Meyui.jpg",
+    image: "images/Meyui.webp",
     keywords: ["Kanoko-zome", "かのこぞめ", "鹿の子染め", "daim", "inde", "meyui"]
   },
   {
@@ -67,7 +67,7 @@ const textilesData = [
     badgeColor: "#FEF3C6",
     description:
       "Brocarts de haute lisse, très résistants, dont le fil de trame est placé à la main uniquement sur la partie correspondant au motif avant d'être mis en place avec un peigne adapté. Il est souvent utilisé pour les obi haut de gamme, les sacs et les tapisseries décoratives en soie, fils d'or et d'argent.",
-    image: "images/Tsuzure-ori.jpg",
+    image: "images/Tsuzure-ori.webp",
     keywords: ["tsuzure-ori", "つづれおり", "綴織", "trame", "tissage", "brocart"]
   },
   {
@@ -79,7 +79,7 @@ const textilesData = [
     badgeColor: "#E0E7FF",
     description:
       "Technique de broderie originellement utilisée en combinaison avec le boro, une technique de rapiéçage traditionnelle japonaise réalisée par les classes sociales inférieures. Le sashiko se distingue par ses motifs simples réalisés avec des lignes discontinues, à l’origine en fil blanc sur tissu bleu indigo.",
-    image: "images/Sashiko.jpg",
+    image: "images/Sashiko.webp",
     keywords: ["sashiko", "さしこ", "刺し子", "paysan", "broderie", "boro"]
   },
   {
@@ -91,7 +91,7 @@ const textilesData = [
     badgeColor: "#D0FAE5",
     description:
       "Motif de feuilles de chanvre disposées en étoiles à six branches, associé à la santé et à la croissance. Il était particulièrement apprécié pour les vêtements d’enfants et a retrouvé une forte popularité avec Demon Slayer.",
-    image: "images/Asanoha.jpg",
+    image: "images/Asanoha.webp",
     keywords: ["asanoha", "あさのは", "麻の葉", "nezuko", "chanvre", "étoiles"]
   },
   {
@@ -103,7 +103,7 @@ const textilesData = [
     badgeColor: "#FEF3C6",
     description:
       "Basé sur la technique du kara-ori importé de Chine au XIIIe siècle, il fut amélioré au XVIe siècle avec des motifs de rayures en relief connus sous les noms de fusenmon et ryūjō.",
-    image: "images/Hakata-ori.jpg",
+    image: "images/Hakata-ori.webp",
     keywords: ["Hakata-ori", "はかたおり", "博多織", "hakata", "chine", "fukuoka"]
   }
 ];

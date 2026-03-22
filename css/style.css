@@ -258,7 +258,7 @@ input:focus-visible {
   z-index: 0;
   background:
     linear-gradient(rgba(30, 20, 15, 0.45), rgba(30, 20, 15, 0.45)),
-    url("../images/Tissage-deb.jpg") center / cover no-repeat;
+    url("../images/Tissage-deb.webp") center / cover no-repeat;
   transform: scale(1);
   animation: heroZoom 8s ease-out forwards;
 }
@@ -270,7 +270,7 @@ input:focus-visible {
   z-index: 0;
   background:
     linear-gradient(rgba(30, 20, 15, 0.45), rgba(30, 20, 15, 0.45)),
-    url("../images/Teinture-Deb.jpg") center / cover no-repeat;
+    url("../images/Teinture-Deb.webp") center / cover no-repeat;
   transform: scale(1);
   animation: heroZoom 8s ease-out forwards;
 }
@@ -282,7 +282,7 @@ input:focus-visible {
   z-index: 0;
   background:
     linear-gradient(rgba(30, 20, 15, 0.45), rgba(30, 20, 15, 0.45)),
-    url("../images/Motifs-deb.jpg") center / cover no-repeat;
+    url("../images/Motifs-deb.webp") center / cover no-repeat;
   transform: scale(1);
   animation: heroZoom 8s ease-out forwards;
 }
@@ -293,7 +293,7 @@ input:focus-visible {
   z-index: 0;
   background:
     linear-gradient(rgba(30, 20, 15, 0.45), rgba(30, 20, 15, 0.45)),
-    url("../images/Textile_Japonais.jpg") center / cover no-repeat;
+    url("../images/Textile_Japonais.webp") center / cover no-repeat;
   transform: scale(1);
   animation: heroZoom 8s ease-out forwards;
 }
