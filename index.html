@@ -21,9 +21,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    href="https://fonts.googleapis.com/css2?family=Sour+Gummy:wght@700&display=swap"
-    rel="stylesheet">
-
+      href="https://fonts.googleapis.com/css2?family=Sour+Gummy:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
     <link
       rel="stylesheet"
@@ -143,67 +143,76 @@
       </section>
 
       <section class="search-section">
-        <div class="search-toolbar">
-          <div class="search-input-box">
-            <img src="svg/loupe.svg" alt="" aria-hidden="true" />
-            <label for="searchInput" class="visually-hidden"
-              >Recherche un terme</label
+        <div class="custom-container">
+          <div class="search-toolbar">
+            <div class="search-input-box">
+              <img src="svg/loupe.svg" alt="" aria-hidden="true" />
+              <label for="searchInput" class="visually-hidden">
+                Recherche un terme
+              </label>
+              <input
+                type="search"
+                id="searchInput"
+                class="search-input-field no-border-input"
+                placeholder="Recherche un terme"
+              />
+            </div>
+
+            <div
+              class="search-categories"
+              role="group"
+              aria-label="Filtrer par catégorie"
             >
-            <input
-              type="search"
-              id="searchInput"
-              class="search-input-field no-border-input"
-              placeholder="Recherche un terme"
-            />
+              <button
+                type="button"
+                class="category-filter"
+                data-category="tous"
+              >
+                Tous
+              </button>
+              <button
+                type="button"
+                class="category-filter"
+                data-category="motifs"
+              >
+                Motifs
+              </button>
+              <button
+                type="button"
+                class="category-filter"
+                data-category="tissages"
+              >
+                Tissages
+              </button>
+              <button
+                type="button"
+                class="category-filter"
+                data-category="teinture"
+              >
+                Teinture & Décors
+              </button>
+              <button
+                type="button"
+                class="category-filter"
+                data-category="generale"
+              >
+                Générale
+              </button>
+            </div>
           </div>
 
-          <div
-            class="search-categories"
-            role="group"
-            aria-label="Filtrer par catégorie"
-          >
-            <button type="button" class="category-filter" data-category="tous">
-              Tous
-            </button>
-            <button
-              type="button"
-              class="category-filter"
-              data-category="motifs"
-            >
-              Motifs
-            </button>
-            <button
-              type="button"
-              class="category-filter"
-              data-category="tissages"
-            >
-              Tissages
-            </button>
-            <button
-              type="button"
-              class="category-filter"
-              data-category="teinture"
-            >
-              Teinture & Décors
-            </button>
-            <button
-              type="button"
-              class="category-filter"
-              data-category="generale"
-            >
-              Générale
-            </button>
-          </div>
+          <div id="resultsInfo" class="results-info" aria-live="polite"></div>
+          <div id="resultsContainer" class="results-grid"></div>
         </div>
-
-        <div id="resultsInfo" class="results-info" aria-live="polite"></div>
-        <div id="resultsContainer" class="results-grid"></div>
       </section>
     </main>
 
     <div id="site-footer"></div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
     <script src="js/main.js" defer></script>
   </body>
 </html>
